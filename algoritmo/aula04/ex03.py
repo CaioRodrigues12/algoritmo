@@ -1,0 +1,11 @@
+nascimento = int(input("Digite o seu ano de nascimento: "))
+ano = int(input("digite o ano atual: "))
+
+idade = (ano - nascimento)
+meses = (idade * 12)
+dias = (idade * 365)
+semanas = (idade * 53)
+print("sua idade: ", idade)
+print("Meses....: ", meses)
+print("dias.....: ", dias)
+print("semanas..: ", semanas)
