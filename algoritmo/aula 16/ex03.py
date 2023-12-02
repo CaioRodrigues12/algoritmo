@@ -11,6 +11,6 @@ def calcular_soma_multiplicacao(numero):
 
 numero = input("Digite seu RA: ")
 
-soma, multiplicacao = calcular_soma_multiplicacao(numero)
+soma, multi = calcular_soma_multiplicacao(numero)
 print(f"Soma = {soma}")
-print(f"Multiplicação = {multiplicacao}")
+print(f"Multiplicação = {multi}")
